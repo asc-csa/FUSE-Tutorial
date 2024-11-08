@@ -8,16 +8,16 @@
 
 <p align="center">
     <a href="#stars">
-        <img alt="Étoiles sur GitHub | GitHub Repo stars" src="https://img.shields.io/github/stars/asc-csa/BRITE_Tutorial">
+        <img alt="Étoiles sur GitHub | GitHub Repo stars" src="https://img.shields.io/github/stars/asc-csa/FUSE-Tutorial">
     </a>
     <a href="#watchers">
-        <img alt="Spectateurs sur Github | GitHub watchers" src="https://img.shields.io/github/watchers/asc-csa/BRITE_Tutorial">
+        <img alt="Spectateurs sur Github | GitHub watchers" src="https://img.shields.io/github/watchers/asc-csa/FUSE-Tutorial">
     </a>
-    <a href="https://github.com/asc-csa/BRITE_Tutorial/commits/main">
-        <img alt="Dernier commit sur GitHub | GitHub last commit" src="https://img.shields.io/github/last-commit/asc-csa/BRITE_Tutorial">
+    <a href="https://github.com/asc-csa/FUSE-Tutorial/commits/main">
+        <img alt="Dernier commit sur GitHub | GitHub last commit" src="https://img.shields.io/github/last-commit/asc-csa/FUSE-Tutorial">
     </a>
-    <a href="https://github.com/asc-csa/BRITE_Tutorial/graphs/contributors">
-        <img alt="Contributeurs sur GitHub | GitHub contributors" src="https://img.shields.io/github/contributors/asc-csa/BRITE_Tutorial">
+    <a href="https://github.com/asc-csa/FUSE-Tutorial/graphs/contributors">
+        <img alt="Contributeurs sur GitHub | GitHub contributors" src="https://img.shields.io/github/contributors/asc-csa/FUSE-Tutorial">
     </a>
     <a href="https://twitter.com/intent/follow?screen_name=csa_asc">
         <img alt="Suivre sur Twitter | Twitter Follow" src="https://img.shields.io/twitter/follow/csa_asc?style=social">
@@ -32,7 +32,7 @@ Ce tutoriel a été créé pour aider les utilisateurs à exploiter les données
 Les utilisateurs apprendront à télécharger et à traiter les données trouvées dans les archives publiques de courbes de lumière, puis à effectuer diverses analyses. 
 L'accent porte sur la découverte potentielle d'exoplanètes. 
 Pour plus d'informations sur les données et la mission : \
-CSA - https://www.asc-csa.gc.ca/eng/satellites/fuse.asp \
+CSA - https://www.asc-csa.gc.ca/fra/satellites/fuse.asp \
 De l'équipe FUSE - https://archive.stsci.edu/fuse/
 
 
@@ -55,7 +55,7 @@ Basé sur des observations faites avec le NASA-CNES-CSA Explorateur Spectroscopi
 (Le français précède) 
 
 This tutorial has been created to help users make use of the open lightcurve data from the BRITE Constellation Mission. Users will learn how to download and process data found in the public lightcurve archive and then conduct various analyses, the focus being potential exoplanet discovery. For more information about the data and the mission: \
-CSA -  https://www.asc-csa.gc.ca/eng/satellites/fuse.asp\
+CSA -  https://www.asc-csa.gc.ca/eng/satellites/fuse.asp \
 From the FUSE Team - https://archive.stsci.edu/fuse/
 
 ## Quick Start
