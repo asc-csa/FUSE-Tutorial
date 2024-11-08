@@ -28,10 +28,7 @@ Credit: NASA
 
 (English below)
 
-Ce tutoriel a été créé pour aider les utilisateurs à exploiter les données ouvertes des courbes de lumière de la mission de la Constellation BRITE. 
-Les utilisateurs apprendront à télécharger et à traiter les données trouvées dans les archives publiques de courbes de lumière, puis à effectuer diverses analyses. 
-L'accent porte sur la découverte potentielle d'exoplanètes. 
-Pour plus d'informations sur les données et la mission : \
+Ce tutoriel a été créé pour aider les utilisateurs à exploiter les données spectroscopiques ouvertes de l'archive FUSE. Les utilisateurs pourront créer des spectrogrammes, nettoyer les données des anomalies, et les analyser en fonction de différentes caractéristiques. Pour plus d'informations sur les données et la mission : \
 CSA - https://www.asc-csa.gc.ca/fra/satellites/fuse.asp \
 De l'équipe FUSE - https://archive.stsci.edu/fuse/
 
@@ -54,7 +51,7 @@ Basé sur des observations faites avec le NASA-CNES-CSA Explorateur Spectroscopi
 ---
 (Le français précède) 
 
-This tutorial has been created to help users make use of the open lightcurve data from the BRITE Constellation Mission. Users will learn how to download and process data found in the public lightcurve archive and then conduct various analyses, the focus being potential exoplanet discovery. For more information about the data and the mission: \
+This tutorial has been created to help users make use of the open spectroscopy data from the FUSE archive. Users will be able to create spectrograms, clean data from anomalies, and analyze for different characteristics. For more information about the data and the mission: \
 CSA -  https://www.asc-csa.gc.ca/eng/satellites/fuse.asp \
 From the FUSE Team - https://archive.stsci.edu/fuse/
 
