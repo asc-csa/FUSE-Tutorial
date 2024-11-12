@@ -69,7 +69,7 @@ The Far Ultraviolet Spectroscopic Explorer (FUSE) was a collaboration between th
 
 You can read more about the general mission here: https://archive.stsci.edu/fuse/overview.html  
 
-The aim of this mission was to conduct various scientific experiments with precision never seen before in the ultraviolet (UV) band. The Earth's atmosphere (specifically the thermosphere) absorbs UV rays making ground observations near-impossible. This incentivizes scientists to develop telescopes that can be sent to space and absorb UV rays to study a variety of subjects covering a range of characteristics observed in celestial objects to atlases of celestial objects.  \
+The aim of this mission was to conduct various scientific experiments with precision never seen before in the ultraviolet (UV) band. The Earth's atmosphere (specifically the thermosphere) absorbs UV rays making ground observations near-impossible. This incentivizes scientists to develop telescopes that can be sent to space and absorb UV rays to study a variety of subjects covering a range of characteristics observed in celestial objects to atlases of celestial objects.  
 
 You can read more about the high-profile science goals and summaries here: https://archive.stsci.edu/fuse/scisumm/  
 
