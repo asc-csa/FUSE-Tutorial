@@ -24,7 +24,7 @@
     </a>
 </p>
 
-Credit: NASA
+Image Credit: NASA
 
 (English below)
 
