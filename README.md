@@ -1,7 +1,7 @@
 # FUSE-Tutorial
 
 <p align="center">
-    <a href="https://science.nasa.gov/wp-content/uploads/2023/06/192794main-fuse-20071018-hi.jpg?w=1536&format=webp">
+    <a href="https://www.asc-csa.gc.ca/eng/satellites/fuse.asp">
         <img alt="Image du FUSE | Image of FUSE" src="https://science.nasa.gov/wp-content/uploads/2023/06/192794main-fuse-20071018-hi.jpg?w=1536&format=webp" height="500">
         </a>
 </p>
