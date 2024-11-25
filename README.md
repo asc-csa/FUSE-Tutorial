@@ -29,7 +29,7 @@ Image Credit: [NASA](https://science.nasa.gov/wp-content/uploads/2023/06/192794m
 (English below)
 
 Ce tutoriel a été créé pour aider les utilisateurs à exploiter les données spectroscopiques ouvertes de l'archive FUSE. Les utilisateurs pourront créer des spectrogrammes, nettoyer les données des anomalies et les analyser en fonction des différentes caractéristiques. Pour plus d'informations sur les données et la mission : \
-CSA - https://www.asc-csa.gc.ca/fra/satellites/fuse.asp \
+ASC - https://www.asc-csa.gc.ca/fra/satellites/fuse.asp \
 De l'équipe FUSE - https://archive.stsci.edu/fuse/  
 
 
