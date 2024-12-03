@@ -32,8 +32,8 @@ Ce tutoriel a été créé pour aider les utilisateurs à exploiter les données
 ASC - https://www.asc-csa.gc.ca/fra/satellites/fuse.asp \
 De l'équipe FUSE - https://archive.stsci.edu/fuse/  
 
-- 1_FUSE Tutorial.ipynb - Il s'agit du principal tutoriel au format Jupyter Notebook, qui permet d'obtenir des résultats immédiats. Il enseigne comment analyser les spectrogrammes et tracer la concentration sur une carte du ciel.
-- 2_Display FUSE Images Script.py - Il s'agit d'un script Python qui affiche des images prises par le télescope FUSE et les enregistre sous la forme d'un ensemble d'images PNG. Ces images ont peu de valeur scientifique mais peuvent être intéressantes, c'est pourquoi elles sont séparées du tutoriel principal.
+- [1_FUSE Tutorial.ipynb](https://github.com/asc-csa/FUSE-Tutorial/blob/main/code/FUSE%20Tutorial.ipynb) - Il s'agit du principal tutoriel au format Jupyter Notebook, qui permet d'obtenir des résultats immédiats. Il enseigne comment analyser les spectrogrammes et tracer la concentration sur une carte du ciel.
+- [2_Display FUSE Images Script.py](https://github.com/asc-csa/FUSE-Tutorial/blob/main/code/Display%20FUSE%20Images%20Script.py) - Il s'agit d'un script Python qui affiche des images prises par le télescope FUSE et les enregistre sous la forme d'un ensemble d'images PNG. Ces images ont peu de valeur scientifique mais peuvent être intéressantes, c'est pourquoi elles sont séparées du tutoriel principal.
 
 ## Contexte
 L'explorateur spectroscopique dans l'ultraviolet lointain (FUSE) est le fruit d'une collaboration entre l'Agence spatiale canadienne (ASC), la NASA, le Centre national d'études spatiales (CNES) et l'Université John Hopkins. L'Université du Colorado à Boulder et l'Université de Californie à Berkeley ont également collaboré au projet. FUSE a été lancé le 24 juin 1999 et a fonctionné jusqu'au 18 octobre 2007. FUSE a été utilisé pour observer près de 3000 objets astronomiques différents, avec un total de 64 millions de secondes d'observation réussie.  
@@ -66,8 +66,8 @@ This tutorial has been created to help users make use of the open spectroscopy d
 CSA -  https://www.asc-csa.gc.ca/eng/satellites/fuse.asp \
 From the FUSE Team - https://archive.stsci.edu/fuse/
 
-- 1_FUSE Tutorial.ipynb - This is the main tutorial in a Jupyter Notebook format which allows for immediate outputs. It teaches how to analyze spectrograms and plot the concentration on a skymap.
-- 2_Display FUSE Images Script.py - This is a Python script that displays images taken by the FUSE telescope and saves them as a set of PNG images. These have little scientific value but may be of interest which is why it is kept separate from the main tutorial.
+- [1_FUSE Tutorial.ipynb](https://github.com/asc-csa/FUSE-Tutorial/blob/main/code/FUSE%20Tutorial.ipynb) - This is the main tutorial in a Jupyter Notebook format which allows for immediate outputs. It teaches how to analyze spectrograms and plot the concentration on a skymap.
+- [2_Display FUSE Images Script.py](https://github.com/asc-csa/FUSE-Tutorial/blob/main/code/Display%20FUSE%20Images%20Script.py) - This is a Python script that displays images taken by the FUSE telescope and saves them as a set of PNG images. These have little scientific value but may be of interest which is why it is kept separate from the main tutorial.
 
 ## About 
 The Far Ultraviolet Spectroscopic Explorer (FUSE) was a collaboration between the Canadian Space Agency (CSA), NASA, the Centre national d'etudes spatiales (CNES), and John Hopkins University. The University of Colorado in Boulder and the University of California in Berkeley were also collaborators on the project. It launched on June 24, 1999 and was operational until October 18th, 2007. FUSE has been used to observe nearly 3000 different astronomical objects with a total of 64 million seconds of successful observing time.  
