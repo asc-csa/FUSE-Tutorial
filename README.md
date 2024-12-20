@@ -32,7 +32,7 @@ Ce tutoriel a été créé pour aider les utilisateurs à exploiter les données
 ASC - https://www.asc-csa.gc.ca/fra/satellites/fuse.asp \
 De l'équipe FUSE - https://archive.stsci.edu/fuse/  
 
-- [FUSE Tutorial.ipynb](https://github.com/asc-csa/FUSE-Tutorial/blob/main/code/FUSE%20Tutorial-FR.ipynb) - Il s'agit du principal tutoriel au format Jupyter Notebook, qui permet d'obtenir des résultats immédiats. Il enseigne comment analyser les spectrogrammes et tracer la concentration sur une carte du ciel.
+- [FUSE Tutorial-FR.ipynb](https://github.com/asc-csa/FUSE-Tutorial/blob/main/code/FUSE%20Tutorial-FR.ipynb) - Il s'agit du principal tutoriel au format Jupyter Notebook, qui permet d'obtenir des résultats immédiats. Il enseigne comment analyser les spectrogrammes et tracer la concentration sur une carte du ciel.
 - [Display FUSE Images Script.py](https://github.com/asc-csa/FUSE-Tutorial/blob/main/code/Display%20FUSE%20Images%20Script.py) - Il s'agit d'un script Python qui affiche des images prises par le télescope FUSE et les enregistre sous la forme d'un ensemble d'images PNG. Ces images ont peu de valeur scientifique mais peuvent être intéressantes, c'est pourquoi elles sont séparées du tutoriel principal.
 
 ## Contexte
@@ -66,7 +66,7 @@ This tutorial has been created to help users make use of the open spectroscopy d
 CSA -  https://www.asc-csa.gc.ca/eng/satellites/fuse.asp \
 From the FUSE Team - https://archive.stsci.edu/fuse/
 
-- [FUSE Tutorial.ipynb](https://github.com/asc-csa/FUSE-Tutorial/blob/main/code/FUSE%20Tutorial-EN.ipynb) - This is the main tutorial in a Jupyter Notebook format which allows for immediate outputs. It teaches how to analyze spectrograms and plot the concentration on a skymap.
+- [FUSE Tutorial-EN.ipynb](https://github.com/asc-csa/FUSE-Tutorial/blob/main/code/FUSE%20Tutorial-EN.ipynb) - This is the main tutorial in a Jupyter Notebook format which allows for immediate outputs. It teaches how to analyze spectrograms and plot the concentration on a skymap.
 - [Display FUSE Images Script.py](https://github.com/asc-csa/FUSE-Tutorial/blob/main/code/Display%20FUSE%20Images%20Script.py) - This is a Python script that displays images taken by the FUSE telescope and saves them as a set of PNG images. These have little scientific value but may be of interest which is why it is kept separate from the main tutorial.
 
 ## About 
