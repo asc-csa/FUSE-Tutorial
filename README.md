@@ -1,9 +1,8 @@
-# FUSE-Tutorial
-
 <p align="center">
     <a href="https://www.asc-csa.gc.ca/eng/satellites/fuse.asp">
-        <img alt="Image du FUSE | Image of FUSE" src="https://science.nasa.gov/wp-content/uploads/2023/06/192794main-fuse-20071018-hi.jpg?w=1536&format=webp" height="500">
-        </a>
+        <img alt="Image du FUSE | Image of FUSE" src="https://science.nasa.gov/wp-content/uploads/2023/06/192794main-fuse-20071018-hi.jpg?w=1536&format=webp" height="300">
+    </a>
+    <br> Crédit d'image | Image credit: <a href="https://science.nasa.gov/wp-content/uploads/2023/06/192794main-fuse-20071018-hi.jpg?w=1536&format=webp">NASA</a>
 </p>
 
 <p align="center">
@@ -24,71 +23,178 @@
     </a>
 </p>
 
-Image Credit: [NASA](https://science.nasa.gov/wp-content/uploads/2023/06/192794main-fuse-20071018-hi.jpg?w=1536&format=webp)
+---
 
-(English below)
+<h3 align="center">
+  <a href="#titre-du-projet">Français</a> |
+  <a href="#project-title">English (follows)</a>
+</h3>
 
-Ce tutoriel a été créé pour aider les utilisateurs à exploiter les données spectroscopiques ouvertes de l'archive FUSE. Les utilisateurs pourront créer des spectrogrammes, nettoyer les anomalies des données, et les analyser en fonction des différentes caractéristiques. Pour plus d'informations sur les données et la mission : \
+---
+
+<a id="titre-du-projet"></a>
+# FUSE - Un tutoriel
+
+> **Description brève :**
+> Ce tutoriel a été créé pour aider les utilisateurs à exploiter les données spectroscopiques ouvertes de l'archive FUSE. Les utilisateurs pourront créer des spectrogrammes, nettoyer les anomalies des données, et les analyser en fonction des différentes caractéristiques.
+
+Pour plus d'informations sur les données et la mission : \
 ASC - https://www.asc-csa.gc.ca/fra/satellites/fuse.asp \
-De l'équipe FUSE - https://archive.stsci.edu/fuse/  
+De l'équipe FUSE - https://archive.stsci.edu/fuse/
 
-- [FUSE Tutorial-FR.ipynb](https://github.com/asc-csa/FUSE-Tutorial/blob/main/code/FUSE%20Tutorial-FR.ipynb) - Il s'agit du principal tutoriel au format Jupyter Notebook, qui permet d'obtenir des résultats immédiats. Il enseigne comment analyser les spectrogrammes et tracer la concentration sur une carte du ciel.
-- [Display FUSE Images Script.py](https://github.com/asc-csa/FUSE-Tutorial/blob/main/code/Display%20FUSE%20Images%20Script.py) - Il s'agit d'un script Python qui affiche des images prises par le télescope FUSE et les enregistre sous la forme d'un ensemble d'images PNG. Ces images ont peu de valeur scientifique mais peuvent être intéressantes, c'est pourquoi elles sont séparées du tutoriel principal.
+- [FUSE Tutorial-FR.ipynb](https://github.com/asc-csa/FUSE-Tutorial/blob/main/code/FUSE%20Tutorial-FR.ipynb) – Il s'agit du principal tutoriel au format Jupyter Notebook, qui permet d'obtenir des résultats immédiats. Il enseigne comment analyser les spectrogrammes et tracer la concentration sur une carte du ciel.  
+- [Display FUSE Images Script.py](https://github.com/asc-csa/FUSE-Tutorial/blob/main/code/Display%20FUSE%20Images%20Script.py) – Il s'agit d'un script Python qui affiche des images prises par le télescope FUSE et les enregistre sous la forme d'un ensemble d'images PNG. Ces images ont peu de valeur scientifique mais peuvent être intéressantes, c'est pourquoi elles sont séparées du tutoriel principal.
 
-## Contexte
-L'explorateur spectroscopique dans l'ultraviolet lointain (FUSE) est le fruit d'une collaboration entre l'Agence spatiale canadienne (ASC), la NASA, le Centre national d'études spatiales (CNES) et l'Université John Hopkins. L'Université du Colorado à Boulder et l'Université de Californie à Berkeley ont également collaboré au projet. FUSE a été lancé le 24 juin 1999 et a fonctionné jusqu'au 18 octobre 2007. FUSE a été utilisé pour observer près de 3000 objets astronomiques différents, avec un total de 64 millions de secondes d'observation réussie.  
+## À propos
 
-Pour en savoir plus sur la mission générale, consultez le site suivant: https://archive.stsci.edu/fuse/overview.html  
+**FUSE - Un tutoriel** est un tutoriel qui aide les utilisateurs à exploiter les données spectroscopiques ouvertes de l'archive FUSE. Il couvre :
 
-L'objectif de cette mission était de mener diverses expériences scientifiques avec une précision jamais atteinte auparavant dans la bande de l'ultraviolet (UV). L'atmosphère terrestre (en particulier la thermosphère) absorbe les rayons UV, ce qui rend les observations au sol quasiment impossibles. Cela incite les scientifiques à développer des télescopes qui peuvent être envoyés dans l'espace et absorber les rayons UV pour étudier une variété de sujets couvrant une gamme de caractéristiques observées dans les objets célestes jusqu'aux atlas des objets célestes.  
+- Création et analyse de spectrogrammes à partir de données FUSE
+- Nettoyage et traitement des anomalies dans les données spectrales  
+- Analyse spectroscopique pour différentes caractéristiques astronomiques
+- Visualisation de données sur des cartes du ciel et spectrogrammes
 
-Pour en savoir plus sur les principaux objectifs scientifiques et leurs résumés, consultez le site suivant : https://archive.stsci.edu/fuse/scisumm/  
+L'explorateur spectroscopique dans l'ultraviolet lointain (FUSE) est le fruit d'une collaboration entre l'Agence spatiale canadienne (ASC), la NASA, le Centre national d'études spatiales (CNES) et l'Université John Hopkins. FUSE a été lancé le 24 juin 1999 et a fonctionné jusqu'au 18 octobre 2007, observant près de 3000 objets astronomiques différents avec un total de 64 millions de secondes d'observation réussie.
+
+L'objectif de cette mission était de mener diverses expériences scientifiques avec une précision jamais atteinte auparavant dans la bande de l'ultraviolet (UV), permettant d'étudier une variété de sujets astronomiques impossibles à observer depuis le sol.
+
+Pour en savoir plus sur la mission : https://archive.stsci.edu/fuse/overview.html
+
+*Ce tutoriel est fourni à des fins pédagogiques et expérimentales.*
+
+## Prérequis
+
+- Python 3.9.18 ou plus récent
+- Jupyter Notebook ou Jupyter Lab
+- Bibliothèques Python : astropy, numpy, matplotlib, healpy
+- Connexion Internet (pour l'accès aux archives FUSE)
+- Espace de stockage pour les fichiers de données spectroscopiques
 
 ## Démarrage rapide
 
-1.	Configurez un environnement virtuel ou un environnement conda avec la version suivante de python (si vous utilisez conda, remplacez la commande pip install ci-dessous par conda) 
-```
-python = 3.9.18
-```
-2. Installer les dépendances depuis le fichier requirments.txt
-```
-pip install -r requirements.txt
-```
+1. 📦 **Cloner le dépôt**
+   ```bash
+   git clone https://github.com/asc-csa/FUSE-Tutorial.git
+   cd FUSE-Tutorial
+   ```
+2. 🐍 **Créer un environnement**
+   ```bash
+   # Avec virtualenv
+   python -m venv env
+   source env/bin/activate
+
+   # Ou avec conda
+   conda create -n fuse_env python=3.9.18
+   conda activate fuse_env
+   ```
+3. 📥 **Installer les dépendances**
+   ```bash
+   pip install -r requirements.txt
+   ```
+4. 🚀 **Lancer le tutoriel**
+   ```bash
+   jupyter notebook "FUSE Tutorial-FR.ipynb"
+   ```
+
+> **Remarque :** Deux fichiers sont disponibles - le tutoriel principal pour l'analyse spectroscopique et un script séparé pour l'affichage d'images.
+
+## Astuces & Conseils
+
+- **Données UV :** FUSE était le télescope le plus sensible jamais conçu pour l'ultraviolet lointain
+- **Archives :** Les données FUSE sont archivées et accessibles via le Space Telescope Science Institute
+- **Spectroscopie :** Utilisez les outils astropy pour manipuler efficacement les données FITS
+- **Cartes du ciel :** Healpy est requis pour la visualisation des données sur des cartes sphériques
 
 #### Remerciements
 Basé sur des observations faites avec le NASA-CNES-CSA Explorateur Spectroscopique de l'Ultraviolet Lointain. FUSE est opéré pour le NASA par l'Université Johns Hopkins sous le contrat NASA NAS5-32985.
 
+## Licence
+
+Ce projet est sous une licence MIT modifiée – voir le fichier [LICENSE](https://github.com/asc-csa/FUSE-Tutorial/blob/main/LICENSE.txt) pour plus de détails.
 
 ---
-(Le français précède) 
 
-This tutorial has been created to help users make use of the open spectroscopy data from the FUSE archive. Users will be able to create spectrograms, clean data from anomalies, and analyze for different characteristics. For more information about the data and the mission: \
+<h3 align="center">
+  <a href="#project-title">English </a> |
+  <a href="#titre-du-projet">Français (précède)</a>
+</h3>
+
+<a id="project-title"></a>
+# FUSE - A Tutorial
+
+> **Brief description:**  
+> This tutorial has been created to help users make use of the open spectroscopy data from the FUSE archive. Users will be able to create spectrograms, clean data from anomalies, and analyze for different characteristics.
+
+For more information about the data and the mission: \
 CSA -  https://www.asc-csa.gc.ca/eng/satellites/fuse.asp \
 From the FUSE Team - https://archive.stsci.edu/fuse/
 
-- [FUSE Tutorial-EN.ipynb](https://github.com/asc-csa/FUSE-Tutorial/blob/main/code/FUSE%20Tutorial-EN.ipynb) - This is the main tutorial in a Jupyter Notebook format which allows for immediate outputs. It teaches how to analyze spectrograms and plot the concentration on a skymap.
-- [Display FUSE Images Script.py](https://github.com/asc-csa/FUSE-Tutorial/blob/main/code/Display%20FUSE%20Images%20Script.py) - This is a Python script that displays images taken by the FUSE telescope and saves them as a set of PNG images. These have little scientific value but may be of interest which is why it is kept separate from the main tutorial.
+- [FUSE Tutorial-EN.ipynb](https://github.com/asc-csa/FUSE-Tutorial/blob/main/code/FUSE%20Tutorial-EN.ipynb) – This is the main tutorial in a Jupyter Notebook format which allows for immediate outputs. It teaches how to analyze spectrograms and plot the concentration on a skymap.  
+- [Display FUSE Images Script.py](https://github.com/asc-csa/FUSE-Tutorial/blob/main/code/Display%20FUSE%20Images%20Script.py) – This is a Python script that displays images taken by the FUSE telescope and saves them as a set of PNG images. These have little scientific value but may be of interest which is why it is kept separate from the main tutorial.
 
-## About 
-The Far Ultraviolet Spectroscopic Explorer (FUSE) was a collaboration between the Canadian Space Agency (CSA), NASA, the Centre national d'etudes spatiales (CNES), and John Hopkins University. The University of Colorado in Boulder and the University of California in Berkeley were also collaborators on the project. It launched on June 24, 1999 and was operational until October 18th, 2007. FUSE has been used to observe nearly 3000 different astronomical objects with a total of 64 million seconds of successful observing time.  
+## About
 
-You can read more about the general mission here: https://archive.stsci.edu/fuse/overview.html  
+**FUSE - A Tutorial** is a tutorial that helps users make use of the open spectroscopy data from the FUSE archive. It covers:
 
-The aim of this mission was to conduct various scientific experiments with precision never seen before in the ultraviolet (UV) band. The Earth's atmosphere (specifically the thermosphere) absorbs UV rays making ground observations near-impossible. This incentivizes scientists to develop telescopes that can be sent to space and absorb UV rays to study a variety of subjects covering a range of characteristics observed in celestial objects to atlases of celestial objects.  
+- Creating and analyzing spectrograms from FUSE data
+- Cleaning and processing anomalies in spectral data
+- Spectroscopic analysis for different astronomical characteristics
+- Visualizing data on sky maps and spectrograms
 
-You can read more about the high-profile science goals and summaries here: https://archive.stsci.edu/fuse/scisumm/  
+The Far Ultraviolet Spectroscopic Explorer (FUSE) was a collaboration between the Canadian Space Agency (CSA), NASA, the Centre national d'etudes spatiales (CNES), and John Hopkins University. It launched on June 24, 1999 and was operational until October 18th, 2007, observing nearly 3000 different astronomical objects with a total of 64 million seconds of successful observing time.
+
+The aim of this mission was to conduct various scientific experiments with precision never seen before in the ultraviolet (UV) band, enabling the study of a variety of astronomical subjects impossible to observe from the ground.
+
+You can read more about the mission here: https://archive.stsci.edu/fuse/overview.html
+
+*This tutorial is provided for educational and experimental purposes.*
+
+## Prerequisites
+
+- Python 3.9.18 or newer
+- Jupyter Notebook or Jupyter Lab
+- Python libraries: astropy, numpy, matplotlib, healpy
+- Internet connection (for FUSE archive access)
+- Storage space for spectroscopic data files
 
 ## Quick Start
 
-1.	Setup a virtual environment or conda environment with the following version of python (if using conda replace the below pip install with conda) 
-```
-python = 3.9.18
-```
-2.  Install requirements from the requirments.txt file 
-```
-pip install -r requirements.txt
-```
+1. 📦 **Clone the repo**
+   ```bash
+   git clone https://github.com/asc-csa/FUSE-Tutorial.git
+   cd FUSE-Tutorial
+   ```
+2. 🐍 **Create environment**
+   ```bash
+   # Using virtualenv
+   python -m venv env
+   source env/bin/activate
+
+   # Or using conda
+   conda create -n fuse_env python=3.9.18
+   conda activate fuse_env
+   ```
+3. 📥 **Install dependencies**
+   ```bash
+   pip install -r requirements.txt
+   ```
+4. 🚀 **Run the tutorial**
+   ```bash
+   jupyter notebook "FUSE Tutorial-EN.ipynb"
+   ```
+
+> **Note:** Two files are available - the main tutorial for spectroscopic analysis and a separate script for image display.
+
+## Tips & Tricks
+
+- **UV Data:** FUSE was the most sensitive telescope ever designed for far-ultraviolet observations
+- **Archives:** FUSE data is archived and accessible via the Space Telescope Science Institute
+- **Spectroscopy:** Use astropy tools to efficiently manipulate FITS data
+- **Sky Maps:** Healpy is required for visualizing data on spherical maps
 
 #### Acknowledgements
 Based on observations made with the NASA-CNES-CSA Far Ultraviolet Spectroscopic Explorer. FUSE is operated for NASA by the Johns Hopkins University under NASA contract NAS5-32985.
 
+## License
+
+This project is licensed under a modified MIT license - see the [LICENSE](https://github.com/asc-csa/FUSE-Tutorial/blob/main/LICENSE.txt) file for details.
