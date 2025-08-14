@@ -39,8 +39,8 @@
 > Ce tutoriel a été créé pour aider les utilisateurs à exploiter les données spectroscopiques ouvertes de l'archive FUSE. Les utilisateurs pourront créer des spectrogrammes, nettoyer les anomalies des données, et les analyser en fonction des différentes caractéristiques.
 
 Pour plus d'informations sur les données et la mission : \
-ASC - https://www.asc-csa.gc.ca/fra/satellites/fuse.asp \
-De l'équipe FUSE - https://archive.stsci.edu/fuse/
+ASC - [Ici](https://www.asc-csa.gc.ca/fra/satellites/fuse.asp) \
+De l'équipe FUSE - [Ici](https://archive.stsci.edu/fuse/)
 
 - [FUSE Tutorial-FR.ipynb](https://github.com/asc-csa/FUSE-Tutorial/blob/main/code/FUSE%20Tutorial-FR.ipynb) – Il s'agit du principal tutoriel au format Jupyter Notebook, qui permet d'obtenir des résultats immédiats. Il enseigne comment analyser les spectrogrammes et tracer la concentration sur une carte du ciel.  
 - [Display FUSE Images Script.py](https://github.com/asc-csa/FUSE-Tutorial/blob/main/code/Display%20FUSE%20Images%20Script.py) – Il s'agit d'un script Python qui affiche des images prises par le télescope FUSE et les enregistre sous la forme d'un ensemble d'images PNG. Ces images ont peu de valeur scientifique mais peuvent être intéressantes, c'est pourquoi elles sont séparées du tutoriel principal.
@@ -58,7 +58,7 @@ L'explorateur spectroscopique dans l'ultraviolet lointain (FUSE) est le fruit d'
 
 L'objectif de cette mission était de mener diverses expériences scientifiques avec une précision jamais atteinte auparavant dans la bande de l'ultraviolet (UV), permettant d'étudier une variété de sujets astronomiques impossibles à observer depuis le sol.
 
-Pour en savoir plus sur la mission : https://archive.stsci.edu/fuse/overview.html
+Pour en savoir plus sur la mission [ici](https://archive.stsci.edu/fuse/overview.html).
 
 *Ce tutoriel est fourni à des fins pédagogiques et expérimentales.*
 
@@ -119,6 +119,8 @@ Ce projet est sous une licence MIT modifiée – voir le fichier [LICENSE](https
   <a href="#titre-du-projet">Français (précède)</a>
 </h3>
 
+---
+
 <a id="project-title"></a>
 # FUSE - A Tutorial
 
@@ -126,8 +128,8 @@ Ce projet est sous une licence MIT modifiée – voir le fichier [LICENSE](https
 > This tutorial has been created to help users make use of the open spectroscopy data from the FUSE archive. Users will be able to create spectrograms, clean data from anomalies, and analyze for different characteristics.
 
 For more information about the data and the mission: \
-CSA -  https://www.asc-csa.gc.ca/eng/satellites/fuse.asp \
-From the FUSE Team - https://archive.stsci.edu/fuse/
+CSA -  [Here](https://www.asc-csa.gc.ca/eng/satellites/fuse.asp) \
+From the FUSE Team - [Here](https://archive.stsci.edu/fuse/)
 
 - [FUSE Tutorial-EN.ipynb](https://github.com/asc-csa/FUSE-Tutorial/blob/main/code/FUSE%20Tutorial-EN.ipynb) – This is the main tutorial in a Jupyter Notebook format which allows for immediate outputs. It teaches how to analyze spectrograms and plot the concentration on a skymap.  
 - [Display FUSE Images Script.py](https://github.com/asc-csa/FUSE-Tutorial/blob/main/code/Display%20FUSE%20Images%20Script.py) – This is a Python script that displays images taken by the FUSE telescope and saves them as a set of PNG images. These have little scientific value but may be of interest which is why it is kept separate from the main tutorial.
@@ -145,7 +147,7 @@ The Far Ultraviolet Spectroscopic Explorer (FUSE) was a collaboration between th
 
 The aim of this mission was to conduct various scientific experiments with precision never seen before in the ultraviolet (UV) band, enabling the study of a variety of astronomical subjects impossible to observe from the ground.
 
-You can read more about the mission here: https://archive.stsci.edu/fuse/overview.html
+You can read more about the mission [here](https://archive.stsci.edu/fuse/overview.html).
 
 *This tutorial is provided for educational and experimental purposes.*
 
